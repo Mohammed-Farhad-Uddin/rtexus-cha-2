@@ -8,11 +8,11 @@ import Box from './Box';
 
 const Boxes = () => {
     return (
-        <div className="d-flex">
-            <Box title="Pulse Count" des="60 bpm" foot="Normal" alt="Pulse Count" img1={heart} />
-            <Box title="Blood Pressure" des="110/70 mmHg" foot="Slightly higher" alt="Blood Pressure" img1={blood} />
-            <Box title="Oxygen Saturation " des="97%" foot="Slightly higher" alt="Oxygen Saturation " img1={oxyzen} />
-            <Box title="Glucose Count" des="100 mm/dL" foot="Normal" alt="Glucose Count" img1={sugar} />
+        <div className="d-flex mt-4 mb-5">
+            <Box className="me-4" title="Pulse Count" des="60 bpm" foot="Normal" alt="Pulse Count" img1={heart} />
+            <Box className="me-4 ms-1" title="Blood Pressure" des="110/70 mmHg" foot="Slightly higher" alt="Blood Pressure" img1={blood} />
+            <Box className="me-4 ms-1" title="Oxygen Saturation " des="97%" foot="Slightly higher" alt="Oxygen Saturation " img1={oxyzen} />
+            <Box className="ms-2" title="Glucose Count" des="100 mm/dL" foot="Normal" alt="Glucose Count" img1={sugar} />
         </div>
     );
 };

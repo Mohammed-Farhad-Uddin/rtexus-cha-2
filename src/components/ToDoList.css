@@ -67,6 +67,7 @@
     bottom: 25%; */
 
     background: #FBFBFB;
+    border-radius:5px;
 }
 
 .add-btn>span {
@@ -141,6 +142,7 @@ right: 16.67%;
 top: 25%;
 bottom: 25%; */
     background: #FBFBFB;
+    border-radius:5px;
 }
 
 .done-btn>span {

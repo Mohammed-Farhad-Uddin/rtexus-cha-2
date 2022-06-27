@@ -5,7 +5,7 @@ import sample2 from '../images/Svg_sample2.png';
 
 const Updates = () => {
     return (
-        <div className="update">
+        <div className="update mt-3">
             <div className="d-flex">
                 <p className="covid me-5">Covid-19 updates</p>
                 <div className="ms-5">

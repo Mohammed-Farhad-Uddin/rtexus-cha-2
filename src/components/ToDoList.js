@@ -2,7 +2,6 @@ import React from 'react';
 import './ToDoList.css';
 import check from '../images/Icon_Vector_Check.png';
 import uncheck from '../images/Icon_Vector_Uncheck.png';
-import smallCheck from '../images/Button/Primary/small.png';
 
 const ToDoList = () => {
     return (
@@ -10,14 +9,14 @@ const ToDoList = () => {
             <h5>To Do List</h5>
             <div className="d-flex">
                 <div className="area"> </div>
-                <button className="add-btn"> <img src={smallCheck} alt="" /> <span>Add</span></button>
+                <button className="add-btn"> <img src={check} alt="" /> <span>Add</span></button>
             </div>
             <div className="todo-select-all">
 
                 <img className="uncheck" src={uncheck} alt="" />
                 <h5>Select All</h5>
 
-                <button className="done-btn"> <img src={smallCheck} alt="" /> <span>Done</span></button>
+                <button className="done-btn"> <img src={check} alt="" /> <span>Done</span></button>
             </div>
             <div className="d-flex mb-3">
                 <img className="check" src={check} alt="" />

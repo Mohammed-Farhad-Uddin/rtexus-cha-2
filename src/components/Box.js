@@ -2,9 +2,9 @@ import React from 'react';
 import './Box.css';
 import vector from '../images/Vector.png';
 
-const Box = ({ title, des, foot, img1, img2, alt }) => {
+const Box = ({ title, des, foot, img1, img2, alt , className }) => {
     return (
-        <div className="col-3">
+        <div className={`${className}`}>
             <div className="box">
                 <img src={img1} alt="sdiosfio" />
                 <p>{title}</p>
