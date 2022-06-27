@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
+import Appointments from './components/Appointments';
 import ToDoList from './components/ToDoList';
+import Updates from './components/Updates';
 
 
 
@@ -8,9 +10,9 @@ import ToDoList from './components/ToDoList';
 function App() {
   return (
 
-    <>
-      <ToDoList />
-    </>
+    <div className="d-flex justify-content-center">
+      <Updates />
+    </div>
 
   );
 }

@@ -72,13 +72,11 @@
 .add-btn>span {
     width: 29px;
     height: 20px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 140%;
-
     color: #FBFBFB;
 }
 
@@ -103,13 +101,12 @@
 .uncheck {
     width: 26px;
     height: 26px;
-    background: #EDEBEB;
 }
 
-.todo-select-all>div>h5 {
+.todo-select-all>h5 {
     width: 66px;
     height: 22px;
-margin-left: 7px;
+    margin-left: 7px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -163,13 +160,12 @@ bottom: 25%; */
 .check {
     width: 26px;
     height: 26px;
-    background: #FF7594;
 }
 
 .select-title {
     width: 399px;
     height: 22px;
-    margin-left: 10px;
+    margin: 0px 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
