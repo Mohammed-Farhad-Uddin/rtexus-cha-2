@@ -13,10 +13,9 @@
     width: 456px;
     height: 300px;
     padding-top: 20px;
-
-    background: #FFFFFF;
     border: 1px solid #EDEBEB;
     border-radius: 8px;
+    margin-top:15px;
 }
 
 .covid {
@@ -27,7 +26,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 140%;
-    color: #231F20;
 }
 
 .covid-time {
@@ -38,14 +36,12 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
-    color: #8A8686;
     order: 1;
 }
 
 .infect-info {
     width: 177px;
     height: 190px;
-
     background: linear-gradient(101.27deg, #FF7594 -6.58%, #FF7C65 102.46%);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
     border-radius: 5px 1px 1px 5px;
@@ -55,9 +51,6 @@
 }
 
 .infect-info p {
-    /* position: absolute;
-    left: 29px;
-top: 14px; */
     width: 123px;
     height: 20px;
     font-family: 'Poppins';
@@ -70,9 +63,6 @@ top: 14px; */
 }
 
 .infect-info h5 {
-    /* position: absolute;
-    left: 51px;
-top: 42px; */
     width: 74px;
     height: 54px;
     font-family: 'Poppins';

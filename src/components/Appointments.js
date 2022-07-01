@@ -5,9 +5,9 @@ import './Appointments.css';
 
 
 
-const Appointments = () => {
+const Appointments = ({ dark}) => {
     return (
-        <div className="appointments-body">
+        <div className="appointments-body" style={{ background: `${!dark ? "#FFFFFF" : "rgba(255, 255, 255, 0.1)"}`, borderColor:`${dark? "rgba(255, 255, 255, 0)" :"#EDEBEB"}` }}>
             <p className="appointments-title">Upcoming Appointments </p>
             <div className="d-flex">
                 <div className="d-flex flex-column me-3">
@@ -20,10 +20,10 @@ const Appointments = () => {
                     <p className="circle4"></p>
                 </div>
                 <div>
-                    <Appointment />
-                    <Appointment />
-                    <Appointment />
-                    <Appointment />
+                    <Appointment dark={dark} />
+                    <Appointment dark={dark} />
+                    <Appointment dark={dark}/>
+                    <Appointment dark={dark}/>
                 </div>
             </div>
         </div>
